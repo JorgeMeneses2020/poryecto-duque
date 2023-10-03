@@ -1,0 +1,55 @@
+/* Reset de estilos */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Encabezado */
+header {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+/* Contenido */
+h2 {
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+/* Imágenes */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Pie de página */
+footer {
+    background-color: #007BFF;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
